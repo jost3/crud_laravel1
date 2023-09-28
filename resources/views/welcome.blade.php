@@ -16,23 +16,6 @@
         </style>
     </head>
     <body>
-    <!-- Buscador de la página -->
-    <div class="buscad">
-        <form method="GET" action="">
-            <input type="text" name="search1" placeholder="Buscar">
-            <div class="btn">
-                <i class="fa fa-search"></i>
-            </div>
-        </form>
-    </div>
-
-    <div class="tabla_libros">
-        <div class="titulos">ID</div>
-        <div class="titulos">TITULO</div>
-        <div class="titulos">AUTOR</div>
-        <div class="titulos">SECCION</div>
-        <div class="titulos">ELIMINAR</div>
-
-    </div>
+        
     </body>
 </html>
