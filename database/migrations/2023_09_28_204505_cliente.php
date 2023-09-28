@@ -12,6 +12,13 @@ return new class extends Migration
     public function up(): void
     {
         //
+        Schema::create('cliente', function (Blueprint $table) {
+            $table->bigIncrements('id');
+            $table->string('nombre');
+            $table->string('apellido');
+            $table->string('numero');
+            $table->timestamps();
+        });
     }
 
     /**
