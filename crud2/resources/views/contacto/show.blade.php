@@ -1,3 +1,5 @@
+
+@extends('layouts/plantilla')
 @extends('layouts.app')
 
 @section('template_title')
@@ -19,7 +21,7 @@
                     </div>
 
                     <div class="card-body">
-                        
+
                         <div class="form-group">
                             <strong>Nombre:</strong>
                             {{ $contacto->nombre }}
