@@ -18,5 +18,5 @@ Route::get('/', function () {
 });
 
 Auth::routes();
-route::resource('contactos',App\Http\Controllers\ContactoController::class);
+route::resource('contactos',App\Http\Controllers\ContactoController::class)->middleware('auth');
 Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');

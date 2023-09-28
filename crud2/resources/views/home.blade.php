@@ -1,3 +1,5 @@
+
+@extends('layouts/plantilla')
 @extends('layouts.app')
 
 @section('content')
